@@ -1,47 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>背景使用</title>
-	<style>
-		.container{
-			border-radius:10px 20px 30px 50px;
-			width: 600px;
-			height: 600px;
-			background-color:skyblue; 
-			background-image: url(table1-6.JPG);
-			background-repeat: no-repeat;
-			background: skyblue url(kb7.jpg) 100px -100px  no-repeat ;
-
-			background-position: ;
-			background-attachment:fixed; 
-		}
-		.ul li{
-			list-style: decimal;
-		}
-		button{
-			border-radius: 50px;
-		}
-
-	</style>
+	<meta charset="utf-8">
+	<title></title>
 </head>
 <body>
-	<div class="container">
-		12121312312312312
-		阿里巴巴icon
-	</div>
-	<button>登录</button>
-	<ul class="ul">
-		<li>1111</li>
-		<li>2222</li>
-		<li>3333</li>
-		<li>5555</li>
-	</ul>
-	<ul>
-		<li>1111</li>
-		<li>2222</li>
-		<li>3333</li>
-		<li>5555</li>
-	</ul>
+	<table border="1" style="width:600px">
+		<tr><td colspan="3"><h2>商品类目</h2></td></tr>
+		<tr><td rowspan="3">虚拟</td><td>移动</td><td>联通</td></tr>
+		<tr><td>充值卡</td><td>彩票</td></tr>
+		<tr><td>充值卡</td><td>彩票</td></tr>
+		<tr><td rowspan="3">虚拟</td><td>移动</td><td>联通</td></tr>
+		<tr><td>充值卡</td><td>彩票</td></tr>
+		<tr><td>充值卡</td><td>彩票</td></tr>
+	</table>
+	<table  style="width:600px">
+		 <caption>2018年数据报表</caption>
+		 <thead style="background:skyblue;"><tr><th>月份</th><th>收入</th></tr></thead>
+		 <tbody style="background:#ff7400;">
+		 	<tr><td>1月</td><td>300</td></tr>
+		 	<tr><td>2月</td><td>300</td></tr>
+		 	<tr><td>3月</td><td>300</td></tr>
+		 	<tr><td>4月</td><td>300</td></tr>
+		 	<tr><td>5月</td><td>300</td></tr>
+		 	<tr><td>6月</td><td>300</td></tr>
+		 </tbody>
+		 <tfoot style="background: PaleVioletRed">
+		 	<tr><td>平均收入</td><td>300</td></tr>
+		 	<tr><td>总计:</td><td>300*6=1800</td></tr>
+		 </tfoot>
+
+	</table>
+
+
+
+	<br>
+	<table border="1">
+		<tr><td colspan="2"><img src="a_title.jpg" style="width: 100%"></td></tr>
+		<tr><td rowspan="4"><img src="a_left.jpg"></td><td>大学要求老师开网店</td></tr>
+		<tr><td>大学要求老师开网店</td></tr>
+		<tr><td>大学要求老师开网店</td></tr>
+		<tr><td>大学要求老师开网店</td></tr>
+	</table>
 </body>
 </html>
